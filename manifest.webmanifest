@@ -2,7 +2,7 @@
   "name": "Lodash",
   "short_name": "Lodash",
   "background_color": "transparent",
-  "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+  "description": "{{ site.description }}",
   "display": "standalone",
   "lang": "en",
   "scope": "/",
@@ -31,3 +31,5 @@
     }
   ]
 }
+
+
