@@ -1,42 +1,5 @@
 CACHE MANIFEST
-# Revision 1fd5b99b937f364636a8a351bdea94aad6fb4eab
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Revision 4ec4947080454535a9c645190ce48a6767b22ca1
 
 /
 /404
@@ -45,7 +8,6 @@ CACHE MANIFEST
 /docs/2.4.2
 /docs/3.10.1
 /docs/4.17.11
-/icons/favicon-16x16.png
 /icons/icon.svg
 /icons/safari-pinned-tab-16x16.svg
 /package-lock.json
