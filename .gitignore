@@ -1,7 +1,9 @@
 .DS_Store
 .idea
+.vscode
 .jekyll-metadata
 .sass-cache
 *.log
-_site
 node_modules
+
+.env

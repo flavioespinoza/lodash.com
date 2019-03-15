@@ -1,5 +1,3 @@
----
----
 (function() {
   'use strict'
 
@@ -19,7 +17,7 @@
       urlSearchValue = getSearchQuery(location.search),
       versionMatch = location.pathname.match(/[\d.]+(?=(?:\.html)?$)/),
       versionSelect = document.getElementById('version'),
-      version = versionMatch ? versionMatch[0] : '{{ site.release }}'
+      version = versionMatch ? versionMatch[0] : '4.17.11'
 
   function Searcher(pattern) {
     this.__engine__ = new BitapSearcher(normalizeSearchValue(pattern), { 'threshold': 0.25 })
@@ -40,8 +38,8 @@
       carbonated = true
       var script = document.createElement('script')
       script.addEventListener('error', decarbonate)
-      script.id = '{{ site.carbon_ads.id }}'
-      script.src = '{{ site.carbon_ads.href }}'
+      script.id = '_carbonads_js'
+      script.src = 'https://cdn.carbonads.com/carbon.js?serve=CKYIEK37&placement=lodashcom'
       toc.style.transform = 'none'
       toc.insertBefore(script, toc.firstChild)
     }
@@ -389,7 +387,7 @@
     var value = event.target.value
     if (value) {
       location.href = value == '1.3.1'
-        ? '{{ site.links.docs_v1 }}'
+        ? 'https://github.com/lodash/lodash/blob/1.3.1/doc/README.md'
         : '/docs/' + value + location.hash
     }
   })

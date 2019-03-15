@@ -8,13 +8,13 @@ The Lodash website.
 
 2. Install required [gems](http://bundler.io/) & [packages](https://www.npmjs.com/) in the repository directory.
     ```shell
-    $ bundle
-    $ npm i
+    bundle
+    npm i
     ```
 
 3. Build & run.
     ```shell
-    $ bundle exec jekyll serve
+    bundle exec jekyll serve
     ```
 
 ## Incrementing the Lodash Version
@@ -25,5 +25,5 @@ The Lodash website.
 
 3. Update `_config.yml` for the release.
     ```shell
-    $ npm run build:config <version>
+    npm run build:config <version>
     ```

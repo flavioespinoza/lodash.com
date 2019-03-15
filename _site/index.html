@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" class="home">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="description" content="A JavaScript utility library delivering consistency, modularity, performance, &amp; extras.">
+  
+  <meta name="theme-color" content="#3492ff">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lodash</title>
+  <link rel="apple-touch-icon" href="/icons/apple-touch-180x180.png" sizes="180x180">
+  <link rel="feed" type="application/atom+xml" href="https://github.com/lodash/lodash/commits/master.atom">
+  <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+  
+  
+  <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab-16x16.svg" color="#3492ff">
+  
+  
+  
+  <link rel="prerender" href="/docs/4.17.11" pr="1.0">
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <noscript>
+  
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin>
+    
+  
+  </noscript>
+  <script src="/assets/js/boot.js" async></script>
+</head>
+<body class="layout-default">
+  <header>
+  <div class="container">
+    <div class="header-section logo-section">
+      <div class="logo">
+        <a href="/" title="Lodash">Lodash</a>
+      </div>
+      <div class="header-group">
+        <h1>Lodash</h1>
+        <h2>A modern JavaScript utility library delivering modularity, performance &amp; extras.</h2>
+      </div>
+    </div>
+    <div class="header-section">
+      
+      
+      <a href="/docs/4.17.11" class="btn primary">Documentation</a>
+      <a href="https://github.com/lodash/lodash/wiki/FP-Guide" class="btn">FP Guide</a>
+    </div>
+  </div>
+</header>
+<div class="container main">
+  <section>
+  
+  <div class="highlight js intro"><pre><div>_<span class="delimiter method">.</span><span class="name">defaults</span>({&#xA0;<span class="string">&apos;a&apos;</span>:&#xA0;<span class="numeric">1</span>&#xA0;}<span class="delimiter">,</span>&#xA0;{&#xA0;<span class="string">&apos;a&apos;</span>:&#xA0;<span class="numeric">3</span><span class="delimiter">,</span>&#xA0;<span class="string">&apos;b&apos;</span>:&#xA0;<span class="numeric">2</span>&#xA0;});</div><div><span class="comment">//&#xA0;&#x2192;&#xA0;{&#xA0;&apos;a&apos;:&#xA0;1,&#xA0;&apos;b&apos;:&#xA0;2&#xA0;}</span></div><div>_<span class="delimiter method">.</span><span class="name">partition</span>([<span class="numeric">1</span><span class="delimiter">,</span>&#xA0;<span class="numeric">2</span><span class="delimiter">,</span>&#xA0;<span class="numeric">3</span><span class="delimiter">,</span>&#xA0;<span class="numeric">4</span>]<span class="delimiter">,</span>&#xA0;n&#xA0;<span class="type">=&gt;</span>&#xA0;n&#xA0;%&#xA0;<span class="numeric">2</span>);</div><div><span class="comment">//&#xA0;&#x2192;&#xA0;[[1,&#xA0;3],&#xA0;[2,&#xA0;4]]</span></div></pre></div>
+  
+</section>
+
+<section>
+  <p id="social"></p>
+</section>
+
+<section>
+  <h2>Download</h2>
+  <ul id="download-links">
+    <li>
+      <i class="fa fa-download" aria-hidden="true"></i><a href="https://raw.githubusercontent.com/lodash/lodash/4.17.11-npm/core.js">Core build</a> (<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.11-npm/core.min.js">~4kB gzipped</a>)
+    </li>
+    <li>
+      <i class="fa fa-download" aria-hidden="true"></i><a href="https://raw.githubusercontent.com/lodash/lodash/4.17.11-npm/lodash.js">Full build</a> (<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.11-npm/lodash.min.js">~24kB gzipped</a>)
+    </li>
+    <li>
+      <i class="fa fa-link" aria-hidden="true"></i><a href="https://www.jsdelivr.com/projects/lodash">CDN copies</a>
+    </li>
+  </ul>
+  <p><span class="rwd-line">Lodash is released under the <a href="https://raw.githubusercontent.com/lodash/lodash/4.17.11-npm/LICENSE">MIT license</a> &amp; supports modern environments.</span> <span class="rwd-line">Review the <a href="https://github.com/lodash/lodash/wiki/Build-Differences">build differences</a> &amp; pick one that’s right for you.</span></p>
+</section>
+
+<section>
+  <h2>Installation</h2>
+
+  <p>In a browser:</p>
+  
+  <div class="highlight html"><pre>&lt;script&#xA0;src=<span class="string">&quot;lodash.js&quot;</span>&gt;&lt;/script&gt;</pre></div>
+  
+
+  <p>Using npm:</p>
+  
+  <div class="highlight shell"><pre><div>$&#xA0;npm&#xA0;i&#xA0;-g&#xA0;npm</div><div>$&#xA0;npm&#xA0;i&#xA0;--save&#xA0;lodash</div></pre></div>
+  
+
+  <p>In Node.js:</p>
+  
+  <div class="highlight js"><pre><div><span class="comment">//&#xA0;Load&#xA0;the&#xA0;full&#xA0;build.</span></div><div><span class="type">var</span>&#xA0;_&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash&apos;</span>);</div><div><span class="comment">//&#xA0;Load&#xA0;the&#xA0;core&#xA0;build.</span></div><div><span class="type">var</span>&#xA0;_&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/core&apos;</span>);</div><div><span class="comment">//&#xA0;Load&#xA0;the&#xA0;FP&#xA0;build&#xA0;for&#xA0;immutable&#xA0;auto-curried&#xA0;iteratee-first&#xA0;data-last&#xA0;methods.</span></div><div><span class="type">var</span>&#xA0;fp&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/fp&apos;</span>);</div><div>&#xA0;</div><div><span class="comment">//&#xA0;Load&#xA0;method&#xA0;categories.</span></div><div><span class="type">var</span>&#xA0;array&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/array&apos;</span>);</div><div><span class="type">var</span>&#xA0;object&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/fp/object&apos;</span>);</div><div>&#xA0;</div><div><span class="comment">//&#xA0;Cherry-pick&#xA0;methods&#xA0;for&#xA0;smaller&#xA0;browserify/rollup/webpack&#xA0;bundles.</span></div><div><span class="type">var</span>&#xA0;at&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/at&apos;</span>);</div><div><span class="type">var</span>&#xA0;curryN&#xA0;=&#xA0;<span class="support">require</span>(<span class="string">&apos;lodash/fp/curryN&apos;</span>);</div></pre></div>
+  
+  <p><strong>Note:</strong><br>Install <a href="https://www.npmjs.com/package/n_">n_</a> for Lodash use in the Node.js &lt; 6 REPL.</p>
+</section>
+
+<section>
+  <h2>Why Lodash?</h2>
+  <p><span class="rwd-line">Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.</span> <span class="rwd-line">Lodash’s modular methods are great for:</span></p>
+  <ul class="chevron">
+    <li>Iterating arrays, objects, &amp; strings</li>
+    <li>Manipulating &amp; testing values</li>
+    <li>Creating composite functions</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Module Formats</h2>
+  <p>Lodash is available in a <a href="/custom-builds">variety of builds</a> &amp; module formats.</p>
+  <ul class="chevron">
+    <li><a href="https://www.npmjs.com/package/lodash">lodash</a> &amp; <a href="https://www.npmjs.com/browse/keyword/lodash-modularized">per method packages</a></li>
+    <li><a href="https://www.npmjs.com/package/lodash-es">lodash-es</a>, <a href="https://www.npmjs.com/package/babel-plugin-lodash">babel-plugin-lodash</a>, &amp; <a href="https://www.npmjs.com/package/lodash-webpack-plugin">lodash-webpack-plugin</a></li>
+    <li><a href="https://github.com/lodash/lodash/tree/4.17.11-npm/fp">lodash/fp</a></li>
+    <li><a href="https://www.npmjs.com/package/lodash-amd">lodash-amd</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Complementary Tools</h2>
+  <ul class="chevron">
+    <li><a href="https://github.com/smartprocure/futil-js">futil-js</a> is a set of functional utilities designed to complement lodash</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Further Reading</h2>
+  <ul class="chevron">
+    <li><a href="https://github.com/lodash/lodash/blob/master/.github/CONTRIBUTING.md">Contributing</a></li>
+    <li><a href="https://github.com/lodash/lodash/releases/tag/4.0.0">Release Notes</a></li>
+    <li><a href="https://github.com/lodash/lodash/wiki">Wiki (Changelog, Roadmap, etc.)</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Support</h2>
+  <p><span class="rwd-line">Tested in Chrome 65-66, Firefox 58-59, IE 11, Edge 16, Safari 10-11, Node.js 6-10, &amp; PhantomJS 2.1.1.</span> <span class="rwd-line">Automated <a href="https://saucelabs.com/u/lodash">browser</a> &amp; <a href="https://travis-ci.org/lodash">CI</a> test runs are available.</span></p>
+</section>
+
+<script src="/assets/js/home.js" async></script>
+
+</div>
+<footer>
+  <div class="container">
+    <p>Site made with <i class="fa fa-heart" aria-label="love"></i> by <a href="https://twitter.com/veksenn">@veksenn</a> &amp; <a href="https://twitter.com/ZTHall">@zthall</a>.</p>
+    <p>Maintained by the <a href="https://github.com/orgs/lodash/people">core team</a> with help from <a href="https://github.com/lodash/lodash/graphs/contributors">our contributors</a>.
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha384-2HWZ0KJxkQ3nhRpHPzk4AO2iIy1S8rSGwN5MpMS/xf34mqOahLqEbqwvdk48EnEv" async crossorigin></script>
+
+
+</body>
+</html>

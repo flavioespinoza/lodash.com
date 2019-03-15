@@ -1,7 +1,6 @@
 {
-  "name": "lodash.com",
+  "name": "datedash.doc",
   "license": "MIT",
-  "private": true,
   "engines": {
     "node": ">=7.0.0"
   },
