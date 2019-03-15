@@ -38,24 +38,24 @@ CACHE MANIFEST
 
 
 
-/
-/404
-/assets/css/main.css
-/assets/img/lodash.svg
-/assets/js/boot.js
-/assets/js/docs.js
-/assets/js/home.js
-/custom-builds
-/docs/
-/docs/2.4.2
-/docs/3.10.1
-/docs/4.17.11
-/favicon.ico
-/icons/apple-touch-180x180.png
-/icons/favicon-16x16.png
-/icons/favicon-32x32.png
-/icons/icon.svg
-/icons/safari-pinned-tab-16x16.svg
+
+404
+assets/css/main.css
+assets/img/lodash.svg
+assets/js/boot.js
+assets/js/docs.js
+assets/js/home.js
+custom-builds
+docs/
+docs/2.4.2
+docs/3.10.1
+docs/4.17.11
+favicon.ico
+icons/apple-touch-180x180.png
+icons/favicon-16x16.png
+icons/favicon-32x32.png
+icons/icon.svg
+icons/safari-pinned-tab-16x16.svg
 
 NETWORK:
 *
