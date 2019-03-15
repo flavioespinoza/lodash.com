@@ -28,6 +28,8 @@
   console.log('version', version)
 
   console.log(_.now())
+  console.log(_.now())
+  console.log(_.now())
 
   Searcher.prototype.isMatch = function(text) {
     return this.__engine__.search(normalizeSearchValue(text)).isMatch
