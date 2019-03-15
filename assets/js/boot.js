@@ -23,7 +23,10 @@
   function toggleOffline() {
     rootEl.classList.toggle('offline')
   }
-
+  
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+  }
   /*--------------------------------------------------------------------------*/
 
   {% assign resources = site.data.init.array %}
