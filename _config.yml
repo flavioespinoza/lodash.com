@@ -13,17 +13,17 @@ description: A JavaScript utility library delivering consistency, modularity, pe
 
 css:
   all:
-    - /assets/css/main.css
+    - assets/css/main.css
 
 js:
   all:
-    - /assets/js/boot.js
+    - assets/js/boot.js
 
   docs:
-    - /assets/js/docs.js
+    - assets/js/docs.js
 
   home:
-    - /assets/js/home.js
+    - assets/js/home.js
 
 links:
   build_differences:

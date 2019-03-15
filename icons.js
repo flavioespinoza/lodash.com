@@ -3,7 +3,7 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
-const manifest = JSON.parse(fs.readFileSync('./docs/manifest.webmanifest', 'utf8'))
+const manifest = JSON.parse(fs.readFileSync('./manifest.webmanifest', 'utf8'))
 
 /*----------------------------------------------------------------------------*/
 

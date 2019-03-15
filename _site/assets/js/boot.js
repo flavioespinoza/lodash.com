@@ -31,7 +31,7 @@
   
 
   // Add asynchronous style sheets.
-  [{"href":"/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css","integrity":"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"}].forEach(addStyleSheet)
+  [{"href":"https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css","integrity":"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"}].forEach(addStyleSheet)
 
   
 

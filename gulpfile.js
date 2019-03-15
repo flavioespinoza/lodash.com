@@ -1,5 +1,8 @@
 'use strict'
 
+const ghPages = require('gulp-gh-pages')
+const log = require('ololog')
+
 const path = require('path')
 const URL = require('url')
 
@@ -364,9 +367,38 @@ gulp.task('minify-xml', () =>
   ], cb)
 )
 
+
+/*----------------------------------------------------------------------------*/
+
+gulp.task('deploy', () => {
+
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+    log.lightYellow('deploy')
+
+    gulpSrc('_site/**/*', opts).pipe(ghPages())
+
+    log.cyan('deploy')
+    log.cyan('deploy')
+    log.cyan('deploy')
+    log.cyan('deploy')
+    log.cyan('deploy')
+    log.cyan('deploy')
+    log.cyan('deploy')
+
+
+})
+
 /*----------------------------------------------------------------------------*/
 
 gulp.task('build', sequence(
   ['build-headers', 'build-metadata', 'build-redirects'],
-  ['build-css', 'build-html', 'build-images', 'build-js']
+  ['build-css', 'build-html', 'build-images', 'build-js'],
+  ['deploy']
 ))
+
+

@@ -1,42 +1,5 @@
 CACHE MANIFEST
-# Revision 3fa31707929f06f0fb46d2749d50343736bed0a7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Revision 109293ad4c2396b86c2e18b45a05503830dce854
 
 /
 /404
@@ -56,8 +19,6 @@ CACHE MANIFEST
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff2
-/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
-/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
 /vendor/cdn.jsdelivr.net/g/fuse@2.6.1,react@15.4.0(react.min.js+react-dom.min.js
 /vendor/cdn.jsdelivr.net/lodash/3.10.1/lodash.min.js
 /vendor/cdn.jsdelivr.net/npm/lodash@2.4.2/dist/lodash.min.js
