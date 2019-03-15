@@ -1,5 +1,5 @@
 {
-  "name": "datedash.doc",
+  "name": "lodash.com",
   "license": "MIT",
   "engines": {
     "node": ">=7.0.0"
@@ -35,5 +35,8 @@
     "sri-toolbox": "~0.2.0",
     "to-ico": "^1.1.4",
     "uglify-js": "^3.0.16"
+  },
+  "dependencies": {
+    "esm": "^3.2.17"
   }
 }

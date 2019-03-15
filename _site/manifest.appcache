@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 7330b4c3dbc5b649eb0df8963b36858b3a79204f
+# Revision 3fa31707929f06f0fb46d2749d50343736bed0a7
 
 
 
@@ -46,16 +46,21 @@ CACHE MANIFEST
 /assets/js/docs.js
 /assets/js/home.js
 /custom-builds
-/docs/
 /docs/2.4.2
 /docs/3.10.1
 /docs/4.17.11
-/favicon.ico
-/icons/apple-touch-180x180.png
-/icons/favicon-16x16.png
-/icons/favicon-32x32.png
 /icons/icon.svg
 /icons/safari-pinned-tab-16x16.svg
+/package-lock.json
+/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css
+/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff
+/vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff2
+/vendor/cdn.jsdelivr.net/g/fuse@2.6.1,react@15.4.0(react.min.js+react-dom.min.js
+/vendor/cdn.jsdelivr.net/lodash/3.10.1/lodash.min.js
+/vendor/cdn.jsdelivr.net/npm/lodash@2.4.2/dist/lodash.min.js
+/vendor/cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js
+/vendor/fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSP2LEk6lMzYsRqr3dHFImA.woff2
+/vendor/fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqczFoXZ-Kj537nB_-9jJhlA.woff2
 
 NETWORK:
 *
