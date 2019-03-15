@@ -370,28 +370,13 @@ gulp.task('minify-xml', () =>
 
 /*----------------------------------------------------------------------------*/
 
-gulp.task('deploy', () => {
-
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-    log.lightYellow('deploy')
-
-    gulpSrc('_site/**/*', opts).pipe(ghPages())
-
-    log.cyan('deploy')
-    log.cyan('deploy')
-    log.cyan('deploy')
-    log.cyan('deploy')
-    log.cyan('deploy')
-    log.cyan('deploy')
-    log.cyan('deploy')
-
-
-})
+const _options = {
+    remoteUrl: 'https://github.com/flavioespinoza/lodash.com.git',
+    branch: 'gh-pages',
+    push: true,
+    message: 'gulp deploy to gh-pages'
+}
+gulp.task('deploy', () => gulp.src('./_site/**/*').pipe(ghPages(_options)))
 
 /*----------------------------------------------------------------------------*/
 
