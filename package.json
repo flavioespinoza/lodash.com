@@ -9,7 +9,8 @@
     "build:config": "gulp build-config --release",
     "build:jekyll": "cross-env JEKYLL_ENV=production PAGES_GITHUB_HOSTNAME=lodash.com bundle exec jekyll build",
     "build:site": "gulp build",
-    "build:vendor": "gulp build-vendor"
+    "build:vendor": "gulp build-vendor",
+    "prod": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "devDependencies": {
     "babel-preset-babili": "~0.1.2",
