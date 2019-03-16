@@ -1,16 +1,56 @@
 CACHE MANIFEST
-# Revision 5cdb1fd035c6d68ec5e6d7dae7be7eb93de67133
+# Revision 405f94198c1e51f4ed42f6cc77215b2e71db353f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /
 /404
 /assets/img/lodash.svg
+/assets/js/fuse-react.js
 /custom-builds
 /docs/2.4.2
 /docs/3.10.1
 /docs/4.17.11
+/icons/favicon-16x16.png
 /icons/icon.svg
 /icons/safari-pinned-tab-16x16.svg
 /package-lock.json
+/publish.js
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff
 /vendor/cdn.jsdelivr.net/fontawesome/4.7.0/fonts/fontawesome-webfont.woff2

@@ -7,9 +7,6 @@ ignored: [
   'sw.js'
 ]
 cache: [
-  '_site/',
-  '_site/docs',
-  'docs/',
   'favicon.ico',
   'icons/apple-touch-180x180.png',
   'icons/favicon-32x32.png'

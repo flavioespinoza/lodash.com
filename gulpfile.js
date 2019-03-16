@@ -203,9 +203,11 @@ gulp.task('build-config', () => {
     // Update `release` anchor value.
     .replace(/(&release +)\S+/, (match, prelude) => prelude + newVer)
     // Update `release` alias build href.
-    .replace(/(\*release:[\s\S]+?\bhref: *)(\S+)/, (match, prelude, href) =>
-      prelude + href.replace(toRegExp(oldVer), newVer)
-    )
+    .replace(/(\*release:[\s\S]+?\bhref: *)(\S+)/, (match, prelude, href) => {
+        const fuck = prelude + href.replace(toRegExp(oldVer), newVer)
+        log.lightYellow('Update `release` alias build href.', fuck)
+        return fuck
+    })
 
   return readSource('_config.yml').then(config => {
     const args = process.argv.slice(3)

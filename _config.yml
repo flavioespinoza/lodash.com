@@ -12,17 +12,20 @@ brand_color: "#3492ff"
 description: A JavaScript utility library delivering consistency, modularity, performance, & extras.
 
 css:
-  all:
+  home:
     - assets/css/main.css
 
-js:
-  all:
-    - assets/js/boot.js
-
   docs:
-    - assets/js/docs.js
+    - ../assets/css/main.css
+
+
+js:
+  docs:
+    - ../assets/js/boot.js
+    - ../assets/js/docs.js
 
   home:
+    - assets/js/boot.js
     - assets/js/home.js
 
 links:
@@ -78,9 +81,6 @@ vendor:
   js:
     - href: https://embed.runkit.com/
       async: true
-
-    - href: https://cdn.jsdelivr.net/g/fuse@2.6.1,react@15.4.0(react.min.js+react-dom.min.js
-      integrity: sha384-txLSiuN1HJSO1or/mE1Y6bvgD0cV3WA6Ss7rs9WqvPQ3zthR8w/DzHpB+DVTDAMz
 
 carbon_ads:
   href: https://cdn.carbonads.com/carbon.js?serve=CKYIEK37&placement=lodashcom
