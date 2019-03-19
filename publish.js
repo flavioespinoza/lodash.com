@@ -5,7 +5,8 @@ const _d = require('datedash')
 const options = {
     date: _d.date(new Date(), 'full'),
     project: 'lodash.com',
-    github: 'github.com/flavioespinoza/lodash.com'
+    repository: 'github.com/flavioespinoza/lodash.com',
+    gh_pages: 'flavioespinoza.github.io/lodash.com'
 }
 
 ghpages.publish('_site', options, (err) => {
@@ -13,7 +14,5 @@ ghpages.publish('_site', options, (err) => {
         _log.error('publish.js --> ghpages.publish()', err)
         return
     }
-
     log.cyan(options)
-
 })
